@@ -1,4 +1,4 @@
-import { HStack, Icon, Text } from '@chakra-ui/react'
+import { HStack, Icon } from '@chakra-ui/react'
 import { FaWindows, FaPlaystation, FaXbox, FaLinux, FaApple, FaAndroid } from 'react-icons/fa'
 import { SiNintendo } from 'react-icons/si'
 import { BsGlobe } from 'react-icons/bs'
