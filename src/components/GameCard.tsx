@@ -1,19 +1,7 @@
-// import useGames, { Game } from '../hooks/useGames';
-import { Card, CardBody, Heading, Image, Text } from '@chakra-ui/react'
+import { type Game } from '../hooks/useGames';
+import { Card, CardBody, Heading, Image } from '@chakra-ui/react'
 import PlatformIconList from './PlatformIconList'
 
-interface Platform {
-    id: number
-    name: string
-    slug: string
-}
-
-interface Game {
-  id: number;
-  name: string;
-  background_image: string;
-  parent_platforms: {platform: Platform}[]
-}
 
 interface Props {
     game: Game
